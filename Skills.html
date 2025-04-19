@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills | Sanjay Sivaprasad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    header, section, footer {
+      padding: 20px;
+      max-width: 1500px;
+      margin: auto;
+    }
+
+    header {
+      background-color: #008080;
+      text-align: center;
+      padding: 40px 20px;
+      color: white;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1, h2 {
+      color: #00cccc;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e1e1e;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+
+    footer {
+      background-color: #008080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>My Skills</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Skills.html">Skills</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Certifications.html">Certifications</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+  </header>
+
+  <section>
+    <h2>Areas of Expertise</h2>
+    <div class="skills">
+      <div class="card">Photography</div>
+      <div class="card">Video Editing & Production</div>
+      <div class="card">Cybersecurity (Beginner)</div>
+      <div class="card">Team Leadership</div>
+      <div class="card">HTML & CSS</div>
+      <div class="card">Communication & Collaboration</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sanjay Sivaprasad. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

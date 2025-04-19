@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjay Sivaprasad | Portfolio</title>
+  <link rel="stylesheet" href="teststyle.css">
+  <link rel="stylesheet" href="loader.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Loading screen HTML -->
+  <div id="loading-screen">
+    <h1>Welcome to My Portfolio</h1>
+    <div class="loader"></div>
+  </div>
+
+  <header>
+    <div class="container">
+      <h1>Sanjay Sivaprasad</h1>
+      <p>B.Tech in ECE | Network Analyst | Cybersecurity Beginner | Tech Enthusiast</p>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <nav id="nav">
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <img src="profile.jpg" alt="Sanjay Sivaprasad" class="profile-pic">
+      <p>I’m a B.Tech ECE student with a passion for cybersecurity, photography, and video production. I love exploring computer technology and enjoy working in teams and leading initiatives.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Sanjay Sivaprasad. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("nav");
+      nav.classList.toggle("show");
+    }
+
+    // Hide loading screen after page loads
+    window.addEventListener("load", () => {
+      const loadingScreen = document.getElementById("loading-screen");
+      setTimeout(() => {
+        loadingScreen.style.display = "none";
+      }, 2500);  // Hide loader after 2.5 seconds
+    });
+  </script>
+</body>
+
+</html>
