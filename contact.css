@@ -44,7 +44,7 @@ nav a:hover {
 }
 
 h1, h2 {
-  color: var(--black);
+  color: var(--charcoal);
   animation: fadeIn 1.2s ease-in-out;
 }
 
