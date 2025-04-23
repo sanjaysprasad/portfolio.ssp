@@ -8,6 +8,13 @@
 
 
 /* Global Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* ✅ This stops horizontal scrolling */
+  width: 100%;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -20,6 +27,7 @@ body {
   animation: fadePage 1s ease-in-out;
 }
 
+
 header, footer {
   width: 100%;
   background: linear-gradient(to right, var(--tan), var(--gold));
@@ -31,9 +39,9 @@ header, footer {
 
 .container {
   width: 100%;
-  max-width: 1500px; /* Maximum width for large screens */
+  max-width: 1200px; 
   margin: 0 auto;
-  padding: 0 15px; /* Padding for responsive design */
+  padding: 0 15px; 
 }
 
 nav {
@@ -111,7 +119,7 @@ footer {
     margin: 10px 0;
   }
 
-  /* Make profile image smaller on mobile */
+  
   .about img.profile-pic {
     width: 120px;
     height: 120px;
@@ -137,7 +145,7 @@ footer {
   }
 
   .container {
-    padding: 20 10px;
+    padding: 20px 10px;
   }
 
   main {
