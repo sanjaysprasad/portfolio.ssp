@@ -8,6 +8,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
+    :root {
+  --tan: #b68d40;
+  --cream: #f4ebd0;
+  --charcoal: #122620;
+  --gold: #d6ad60;
+}
+
     body {
       margin: 0;
       font-family: 'Roboto', sans-serif;
@@ -20,7 +27,6 @@
       margin: auto;
     }
 
-    }
 
     nav a {
       margin: 0 15px;
@@ -33,9 +39,6 @@
       text-decoration: underline;
     }
 
-    h1, h2 {
-      color: #00cccc;
-    }
 
     .certificates {
       display: flex;
@@ -51,7 +54,7 @@
     }
 
     .certificate-item a {
-      color: #00cccc;
+      color: var(--gold);
       text-decoration: none;
     }
 
@@ -61,7 +64,7 @@
 
     footer {
       background-color: #008080;
-      color: white;
+      color: var(--charcoal);
       text-align: center;
       padding: 20px;
     }
