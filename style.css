@@ -265,3 +265,7 @@ h2 {
 }
 
 
+.new{
+  color: var(--cream) ;
+  text-decoration: none;
+}
